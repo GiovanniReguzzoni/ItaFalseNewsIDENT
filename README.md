@@ -3,7 +3,7 @@ Italian False News Identification Classification Dataset
 
 
 # Motivation
-La motivazione che ha portato alla creazione del dataset e data dalla crescente popolarità nell’uso dei social network per condividere notizie e le conseguenze che questo puo portare. Un fenomeno interessante da analizzare e quello per cui gli utenti sempre di piu` commentano e condividono una notizia leggendo solo il titolo. 
+La motivazione che ha portato alla creazione del dataset e data dalla crescente popolarità nell’uso dei social network per condividere notizie e le conseguenze che questo puo portare. Un fenomeno interessante da analizzare e quello per cui gli utenti sempre di più commentano e condividono una notizia leggendo solo il titolo. 
 Questo puo portare ad una conoscenza solo parziale o errata non approfondendo e quindi non verificando la notizia. In effetti, circa il 59% dei link
 condivisi sui social media di notizia non viene mai aperto, le persone quindi condividono notizie senza neanche leggerle.
 Alcune possibili soluzioni per contrastare la continua diffusione virale di fake news e quella 
@@ -17,7 +17,7 @@ naturale NLP. In particolare il dataset creato contiene esclusivamente titoli di
 giornalistiche e blog online. Per i titoli collegati a fakenews si e scelto fonti che fossero chiaramente ed apertamente informazioni inventate e distorte. Alcuni dei siti selezionati ricadono
 nella categoria di notizie burla, create per fini satirici; questo per semplificare il processo di
 raccolta e catalogazione delle notizie. Rimane interessante comprendere quanto i sistemi NLP
-siano in grado di distinguere una notizia vera da una falsa a prescindere dal fine per cui la notizie falsa sia stata creata, e tenendo in considerazione che in ogni caso una notizia falsa puo`
+siano in grado di distinguere una notizia vera da una falsa a prescindere dal fine per cui la notizie falsa sia stata creata, e tenendo in considerazione che in ogni caso una notizia falsa può
 essere scritta, utilizzando un linguaggio e una struttura ingannevole, e di come un modello di
 classificazione automatica sia da considerare di supporto.
 
