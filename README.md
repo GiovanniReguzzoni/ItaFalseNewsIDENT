@@ -3,7 +3,7 @@ Italian False News Identification Classification Dataset
 
 
 # Motivation
-La motivazione che ha portato alla creazione del dataset e data dalla crescente popolarità nell’uso dei social network per condividere notizie e le conseguenze che questo puo portare. Un fenomeno interessante da analizzare e quello per cui gli utenti sempre di pi ` u commentano e condividono una notizia leggendo solo il titolo. 
+La motivazione che ha portato alla creazione del dataset e data dalla crescente popolarità nell’uso dei social network per condividere notizie e le conseguenze che questo puo portare. Un fenomeno interessante da analizzare e quello per cui gli utenti sempre di piu` commentano e condividono una notizia leggendo solo il titolo. 
 Questo puo portare ad una conoscenza solo parziale o errata non approfondendo e quindi non verificando la notizia. In effetti, circa il 59% dei link
 condivisi sui social media di notizia non viene mai aperto, le persone quindi condividono notizie senza neanche leggerle.
 Alcune possibili soluzioni per contrastare la continua diffusione virale di fake news e quella 
@@ -11,7 +11,7 @@ di effettuare analisi di fact checking sui contenuti specifici delle notizie: ef
 delle fonti e, in generale, una presa di coscienza e aumento delle competenze da parte dei lettori,
 unita a un lavoro di verifica e segnalazioni da parte di fornitori internet e governi.
 Uno studio lessicale, del vocabolario utilizzato, e morfologico, della struttura della frase,
-puo essere un punto di partenza e di supporto nell’aiutare l’identificazione di una ` fakenews,
+puo essere un punto di partenza e di supporto nell’aiutare l’identificazione di una fakenews,
 senza prescindere da uno studio di verifica di fatti e fonti. Questa analisi lessicale e morfolo gica potrebbe essere effettuata attraverso modelli automatizzati di elaborazione del linguaggio
 naturale NLP. In particolare il dataset creato contiene esclusivamente titoli di articoli di testate
 giornalistiche e blog online. Per i titoli collegati a fakenews si e scelto fonti che fossero chiaramente ed apertamente informazioni inventate e distorte. Alcuni dei siti selezionati ricadono
@@ -31,5 +31,11 @@ esse sono state prese dal database “Leipzig Corpora Collection”, un progetto
 Lipsia che offre svariati corpus in diverse lingue, suddivisi per fonti e contenuti. In questo caso
 e stato usato una parte di corpus ricavato attraverso la raccolta di ` feed RSS e titoli dei principali
 giornali italiani.
+
+# Task
+Il task prevede, al momento, un singolo compito , ovvero quello, partendo dal dataset di train,
+di offrire un modello di classificazione delle notizie vere e false del dataset di test, un problema
+che si puo ricondurre a una ` sentiment analysis con classificazione binaria 1, 0. (0 per le notizie
+vere, 1 per quelle false).
 
 
