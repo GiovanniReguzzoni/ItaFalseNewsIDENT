@@ -2,7 +2,7 @@
 Italian False News Identification Classification Dataset
 
 
-Motivation
+# Motivation
 La motivazione che ha portato alla creazione del dataset e data dalla crescente popolarità nell’uso dei social network per condividere notizie e le conseguenze che questo puo portare. Un fenomeno interessante da analizzare e quello per cui gli utenti sempre di pi ` u commentano e condividono una notizia leggendo solo il titolo. 
 Questo puo portare ad una conoscenza solo parziale o errata non approfondendo e quindi non verificando la notizia. In effetti, circa il 59% dei link
 condivisi sui social media di notizia non viene mai aperto, le persone quindi condividono notizie senza neanche leggerle.
@@ -21,7 +21,7 @@ siano in grado di distinguere una notizia vera da una falsa a prescindere dal fi
 essere scritta, utilizzando un linguaggio e una struttura ingannevole, e di come un modello di
 classificazione automatica sia da considerare di supporto.
 
-Dataset and data
+# Dataset and data
 Il dataset e composto di 13599 titoli di articoli di giornale raccolti da database o ricavati attraverso tecniche di data scraping, di estrazione direttamente dai siti web. Per evitare un processo
 manuale lungo di catalogazione e classificazione labelling degli articoli, si e scelto di procedere attraverso un approccio ibrido, dove vi e stata una selezione iniziale attiva dei siti dai quali reperire le notizie false. Questa catalogazione e avvenuta anche tramite la consultazione di 
 cataloghi online di fact checking che offrono “black list” di siti di disinformazione, di bufale,
